@@ -193,7 +193,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;b
 
 <div id="storageModeGroup" class="form-group"><label>资源存放方式</label><div class="radio-group"><div class="radio-option active" data-mode="upload" onclick="setStorageMode('upload')"><i class="fas fa-upload"></i> 本地上传</div><div class="radio-option" data-mode="url" onclick="setStorageMode('url')"><i class="fas fa-link"></i> URL外链</div></div></div>
 
-<div id="storageTypeGroup" class="form-group"><label>本体存储位置</label><div class="radio-group"><div class="radio-option active" data-storage="telegram" onclick="setStorageType('telegram')"><i class="fab fa-telegram"></i> Telegram</div><div class="radio-option" data-storage="r2" onclick="setStorageType('r2')"><i class="fas fa-cloud"></i> R2存储</div><div class="radio-option" data-storage="url" onclick="setStorageType('url')"><i class="fas fa-link"></i> URL外链</div></div></div>
+<div id="storageTypeGroup" class="form-group"><label>本体存储位置</label><div class="radio-group"><div class="radio-option active" data-storage="telegram" onclick="setStorageType('telegram')"><i class="fab fa-telegram"></i> Telegram</div><div class="radio-option" data-storage="r2" onclick="setStorageType('r2')"><i class="fas fa-cloud"></i> R2存储</div></div></div>
 
 <div id="uploadFields">
 <div class="form-group" id="previewUploadGroup"><label>预览图</label><div class="drag-area" id="previewDrag"><i class="fas fa-cloud-upload-alt"></i><div class="drag-text">点击或拖拽图片到此处上传</div><div class="drag-hint">支持 JPG / PNG / WEBP</div><div class="file-name" id="previewFileName"></div><input type="file" id="resPreview" accept="image/jpeg,image/png,image/webp"></div></div>
